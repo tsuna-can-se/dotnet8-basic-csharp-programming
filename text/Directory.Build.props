@@ -3,6 +3,6 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Copyright>Copyright (c) 2023 masatsuna</Copyright>
+		<Copyright>Copyright (c) 2024 masatsuna</Copyright>
 	</PropertyGroup>
 </Project>
