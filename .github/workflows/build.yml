@@ -3,6 +3,7 @@ name: サンプルと演習のビルド
 on:
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch: 
 
 jobs:
   build-text:
