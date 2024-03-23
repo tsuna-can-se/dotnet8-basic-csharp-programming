@@ -1,0 +1,8 @@
+﻿<Project>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Copyright>Copyright (c) 2023 masatsuna</Copyright>
+	</PropertyGroup>
+</Project>

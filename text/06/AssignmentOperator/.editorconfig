@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# CS0219: 変数は割り当てられていますが、その値は使用されていません
+dotnet_diagnostic.CS0219.severity = none
+
+# IDE0059: 値の不必要な代入
+dotnet_diagnostic.IDE0059.severity = none

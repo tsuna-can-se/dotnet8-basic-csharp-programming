@@ -1,0 +1,38 @@
+name: サンプルと演習のビルド
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-text:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout git repo
+      uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore text/TextSample.sln
+    - name: Build
+      run: dotnet build text/TextSample.sln --no-restore
+
+  build-exercise:
+  
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout git repo
+      uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore exercise/Exercise.sln
+    - name: Build
+      run: dotnet build exercise/Exercise.sln --no-restore
