@@ -1,19 +1,19 @@
 # このリポジトリについて
 
-「Visual Studioで学ぶ C# プログラミング .NET6対応」で紹介しているサンプルプログラム、および演習課題の解答をダウンロードすることができます。
+「Visual Studioで学ぶ C# プログラミング .NET8対応」で紹介しているサンプルプログラム、および演習課題の解答をダウンロードすることができます。
 書籍は以下から購入いただけます。
 
-<https://zenn.dev/tsuna_can/books/dotnet6-basic-csharp-programming>
+<https://zenn.dev/tsuna_can/books/dotnet8-basic-csharp-programming>
 
 ## ディレクトリ構成
 
 ### textディレクトリ
 
-C#プログラミングの基礎の書籍内に登場するサンプルプログラムが格納されています。
+「Visual Studioで学ぶ C# プログラミング .NET8対応」の書籍内に登場するサンプルプログラムが格納されています。
 
 ### exerciseディレクトリ
 
-C#プログラミングの基礎の書籍内にある演習課題の解答例が格納されています。
+「Visual Studioで学ぶ C# プログラミング .NET8対応」の書籍内にある演習課題の解答例が格納されています。
 
 ## ライセンス
 
