@@ -103,7 +103,7 @@ public static class SimpleQueries
     public static void Count()
     {
         Console.WriteLine("===Count===");
-        List<string> classes = new List<string>() { "A", "B", "C" };
+        string[] classes = new string[] { "A", "B", "C" };
         int count = classes.Count(); // 3
         Console.WriteLine(count);
     }
