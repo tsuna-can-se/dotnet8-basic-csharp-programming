@@ -4,7 +4,7 @@ public static class SimpleQueries
 {
     public static void Sample1()
     {
-        int[] scores = new int[] { 90, 71, 82, 93, 75, 82 };
+        int[] scores = [90, 71, 82, 93, 75, 82];
 
         Console.WriteLine("===90点以上のデータを取得する===");
         var over90 = scores.Where(x => x >= 90);
@@ -21,7 +21,7 @@ public static class SimpleQueries
     public static void ToList()
     {
         Console.WriteLine("===リストへの変換===");
-        int[] scores = new int[] { 90, 71, 82, 93, 75, 82 };
+        int[] scores = [90, 71, 82, 93, 75, 82];
         List<int> scoreList = scores.ToList();
 
         foreach (int score in scoreList)
@@ -33,7 +33,7 @@ public static class SimpleQueries
     public static void ToArray()
     {
         Console.WriteLine("===配列への変換===");
-        List<string> classes = new List<string>() { "A", "B", "C" };
+        List<string> classes = ["A", "B", "C"];
         string[] classArray = classes.ToArray();
 
         foreach (string c in classArray)
@@ -45,7 +45,7 @@ public static class SimpleQueries
     public static void FirstAndFirstOrDefault()
     {
         Console.WriteLine("===最初の項目の取得（要素あり）===");
-        List<string> classes = new List<string>() { "A", "B", "C" };
+        List<string> classes = ["A", "B", "C"];
         string first = classes.First(); // A
         string? firstOrDefault = classes.FirstOrDefault(); // A
 
@@ -56,7 +56,7 @@ public static class SimpleQueries
     public static void FirstAndFirstOrDefault2()
     {
         Console.WriteLine("===最初の項目の取得（要素なし）===");
-        List<string> classes = new List<string>();
+        List<string> classes = [];
         // string first = classes.First(); // InvalidOperationException
         string? firstOrDefault = classes.FirstOrDefault(); // null
 
@@ -66,7 +66,7 @@ public static class SimpleQueries
     public static void SingleAndSingleOrDefault()
     {
         Console.WriteLine("===単一項目の取得（要素あり）===");
-        List<string> classes = new List<string>() { "A" };
+        List<string> classes = ["A"];
         string single = classes.Single(); // A
         string? singleOrDefault = classes.SingleOrDefault(); // A
 
@@ -77,7 +77,7 @@ public static class SimpleQueries
     public static void SingleAndSingleOrDefault2()
     {
         Console.WriteLine("===単一項目の取得（要素なし）===");
-        List<string> classes = new List<string>();
+        List<string> classes = [];
         // string single = classes.Single(); // InvalidOperationException
         string? singleOrDefault = classes.SingleOrDefault(); // null
 
@@ -87,7 +87,7 @@ public static class SimpleQueries
     public static void Find()
     {
         Console.WriteLine("===Find===");
-        List<string> fruits = new List<string>() { "apple", "banana", "orange", "berry" };
+        List<string> fruits = ["apple", "banana", "orange", "berry"];
         string? fruit = fruits.Find(x => x.StartsWith("b")); // banana
         Console.WriteLine(fruit);
     }
@@ -95,7 +95,7 @@ public static class SimpleQueries
     public static void NotFind()
     {
         Console.WriteLine("===NotFind===");
-        List<string> fruits = new List<string>() { "apple", "banana", "orange", "berry" };
+        List<string> fruits = ["apple", "banana", "orange", "berry"];
         string? fruit = fruits.Find(x => x.StartsWith("c")); // null
         Console.WriteLine(fruit);
     }
@@ -103,7 +103,7 @@ public static class SimpleQueries
     public static void Count()
     {
         Console.WriteLine("===Count===");
-        string[] classes = new string[] { "A", "B", "C" };
+        string[] classes = ["A", "B", "C"];
         int count = classes.Count(); // 3
         Console.WriteLine(count);
     }
@@ -111,7 +111,7 @@ public static class SimpleQueries
     public static void Sum()
     {
         Console.WriteLine("===Sum===");
-        int[] scores = new int[] { 90, 71, 82, 93, 75, 82 };
+        int[] scores = [90, 71, 82, 93, 75, 82];
         int total = scores.Sum(); // 493
         Console.WriteLine(total);
     }
@@ -119,7 +119,7 @@ public static class SimpleQueries
     public static void Average()
     {
         Console.WriteLine("===Average===");
-        int[] scores = new int[] { 90, 71, 82, 93, 75, 84 };
+        int[] scores = [90, 71, 82, 93, 75, 84];
         double average = scores.Average(); // 82.5
         Console.WriteLine(average);
     }
@@ -127,7 +127,7 @@ public static class SimpleQueries
     public static void MaxAndMin()
     {
         Console.WriteLine("===Max / Min===");
-        int[] scores = new int[] { 90, 71, 82, 93, 75, 82 };
+        int[] scores = [90, 71, 82, 93, 75, 82];
         int max = scores.Max(); // 93
         int min = scores.Min(); // 71
         Console.WriteLine(max);
@@ -137,13 +137,13 @@ public static class SimpleQueries
     public static void Where()
     {
         Console.WriteLine("===Where===");
-        List<Point> points = new List<Point>()
-        {
+        List<Point> points =
+        [
             new Point(0,5),
             new Point(-2,-3),
             new Point(2,-4),
             new Point(-4,1),
-        };
+        ];
         var selectedPoints = points.Where(point => point.X >= 0); // { X = 0, Y = 5 }, { X = 2, Y = -4 }
         foreach (var point in selectedPoints)
         {
@@ -154,7 +154,7 @@ public static class SimpleQueries
     public static void Select1()
     {
         Console.WriteLine("===Select(大文字変換)===");
-        List<string> fruits = new List<string>() { "apple", "banana", "orange", "berry" };
+        List<string> fruits = ["apple", "banana", "orange", "berry"];
         var upperFruits = fruits.Select(fruit => fruit.ToUpper()); // APPLE, BANANA, ORANGE, BERRY
         foreach (var fruit in upperFruits)
         {
@@ -165,7 +165,7 @@ public static class SimpleQueries
     public static void Select2()
     {
         Console.WriteLine("===Select(文字列長の付加)===");
-        List<string> fruits = new List<string>() { "apple", "banana", "orange", "berry" };
+        List<string> fruits = ["apple", "banana", "orange", "berry"];
         var data = fruits.Select(fruit => new { Name = fruit, Length = fruit.Length });
         foreach (var item in data)
         {
@@ -176,7 +176,7 @@ public static class SimpleQueries
     public static void OrderBy1()
     {
         Console.WriteLine("===int配列の並べ替え===");
-        int[] scores = new int[] { 90, 71, 82, 93, 75, 82 };
+        int[] scores = [90, 71, 82, 93, 75, 82];
         var asc = scores.OrderBy(score => score); // 71, 75, 82, 82, 90, 93
         var desc = scores.OrderByDescending(score => score); // 93, 90, 82, 82, 75, 71
         foreach (var score in asc)
@@ -193,13 +193,13 @@ public static class SimpleQueries
     public static void OrderBy2()
     {
         Console.WriteLine("===Point リストの並べ替え===");
-        List<Point> points = new List<Point>()
-        {
+        List<Point> points =
+        [
             new Point(0,5),
             new Point(-2,-3),
             new Point(2,-4),
             new Point(-4,1),
-        };
+        ];
         var ascByX = points.OrderBy(point => point.X); // { X = -4, Y = 1 }, { X = -2, Y = -3 }, { X = 0, Y = 5 }, { X = 2, Y = -4 }
         foreach (var point in ascByX)
         {

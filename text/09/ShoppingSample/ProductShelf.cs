@@ -2,7 +2,7 @@
 
 public class ProductShelf
 {
-    private List<Product> products = new List<Product>();
+    private List<Product> products = [];
 
     public Product? this[string productName]
     {

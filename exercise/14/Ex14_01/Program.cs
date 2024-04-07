@@ -1,4 +1,4 @@
-﻿int[] items = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+﻿int[] items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var result = GetSumAndAverage(items);
 Console.WriteLine("合計:" + result.Sum);
 Console.WriteLine("平均:" + result.Average);

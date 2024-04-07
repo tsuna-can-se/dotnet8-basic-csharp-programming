@@ -1,6 +1,6 @@
 ﻿using Ex10_01;
 
-Point p = new Point(0, 0);
+var p = new Point(0, 0);
 for (int i = 1; i <= 3; i++)
 {
     p = new Point(i, i * i);

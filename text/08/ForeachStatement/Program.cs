@@ -1,4 +1,4 @@
-﻿string[] exams = new string[] { "英語", "数学", "国語", "社会", "理科" };
+﻿string[] exams = ["英語", "数学", "国語", "社会", "理科"];
 
 foreach (string exam in exams)
 {

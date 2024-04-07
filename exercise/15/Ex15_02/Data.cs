@@ -10,8 +10,8 @@ public static class Data
         { 40, "経理部" },
     };
 
-    public static List<Employee> Employees { get; } = new List<Employee>()
-    {
+    public static List<Employee> Employees { get; } =
+    [
         new Employee("太郎","佐藤", 35, 10),
         new Employee("花子","鈴木", 40, 10),
         new Employee("次郎","田中", 23, 10),
@@ -32,7 +32,7 @@ public static class Data
         new Employee("瞳","清水", 55, 40),
         new Employee("幸子","斉藤", 41, 40),
         new Employee("大和","林", 38, 40),
-    };
+    ];
 }
 
 public record Employee(string FirstName, string LastName, int Age, int DepartmentCode);

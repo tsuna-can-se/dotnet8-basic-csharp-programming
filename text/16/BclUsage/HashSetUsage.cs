@@ -4,7 +4,7 @@ public static class HashSetUsage
 {
     public static void Run()
     {
-        var hashSet = new HashSet<int> { 1, 2, 3 };
+        HashSet<int> hashSet = [1, 2, 3];
 
         // Count
         Console.WriteLine(hashSet.Count); // output: 3
