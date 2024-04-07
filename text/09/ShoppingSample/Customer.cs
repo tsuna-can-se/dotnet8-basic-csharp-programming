@@ -3,7 +3,7 @@
 public class Customer
 {
     private decimal cash;
-    private List<string> shoppingList = new List<string>();
+    private List<string> shoppingList = [];
     private ShoppingCart? shoppingCart;
     private ProductShelf shelf;
 

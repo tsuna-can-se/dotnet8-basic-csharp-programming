@@ -1,6 +1,6 @@
 ﻿using Ex09_01;
 
-Car car = new Car();
+var car = new Car();
 
 Console.WriteLine("==== 給油していない状態で車を走らせる ====");
 car.Drive();

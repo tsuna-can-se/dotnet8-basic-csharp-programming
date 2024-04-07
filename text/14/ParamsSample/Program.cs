@@ -22,7 +22,7 @@ ShowValuesWithSeparator("|", 4, 5, 6); // output: 4|5|6
 Console.WriteLine("----");
 
 // 配列で渡す方法
-int[] values = new int[] { 7, 8, 9 };
+int[] values = [7, 8, 9];
 ShowValues(values); // output: 7,8,9
 Console.WriteLine("----");
 

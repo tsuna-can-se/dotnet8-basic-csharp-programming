@@ -4,7 +4,7 @@ public static class StackUsage
 {
     public static void Run()
     {
-        var stack = new Stack<int>(new[] { 1, 2, 3 });
+        var stack = new Stack<int>([1, 2, 3]);
 
         // Count
         Console.WriteLine(stack.Count); // output: 3

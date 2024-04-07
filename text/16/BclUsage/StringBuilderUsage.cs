@@ -19,8 +19,8 @@ public static class StringBuilderUsage
         Console.WriteLine(sb.Append(" World!"));　// output: Hello World!
 
         // AppendJoin
-        object[] list = new object[] { "abc", 123, new DateTime(2023, 7, 6) };
-        Console.WriteLine(empty.AppendJoin(",", list)); // output: abc,123,2023/07/06 0:00:00
+        object[] list = ["abc", 123, new DateTime(2024, 7, 6)];
+        Console.WriteLine(empty.AppendJoin(",", list)); // output: abc,123,2024/07/06 0:00:00
 
         // AppendLine()
         Console.WriteLine(sb.AppendLine()); // output: Hello World!

@@ -1,6 +1,6 @@
 ﻿using Ex09_02;
 
-ClassRoom classRoom = new ClassRoom();
+var classRoom = new ClassRoom();
 classRoom.AddStudent(new Student() { Name = "翔太", EnglishScore = 68, MathScore = 85 });
 classRoom.AddStudent(new Student() { Name = "大輝", EnglishScore = 83, MathScore = 93 });
 classRoom.AddStudent(new Student() { Name = "拓海", EnglishScore = 95, MathScore = 61 });

@@ -2,7 +2,7 @@
 
 public class ClassRoom
 {
-    private List<Student> students = new List<Student>();
+    private List<Student> students = [];
 
     public void AddStudent(Student student)
     {

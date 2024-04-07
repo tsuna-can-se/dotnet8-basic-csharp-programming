@@ -1,11 +1,6 @@
 ﻿using Ex12_02;
 
-IShape[] shapes = new IShape[]
-{
-    new Circle(10),
-    new Sphere(3),
-    new Rectangle(5,3),
-};
+IShape[] shapes = [new Circle(10), new Sphere(3), new Rectangle(5, 3)];
 
 foreach (var shape in shapes)
 {

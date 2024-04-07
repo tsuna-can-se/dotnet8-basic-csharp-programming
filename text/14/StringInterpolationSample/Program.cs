@@ -12,12 +12,12 @@ Console.WriteLine("{0}は{1}歳です。", name, age);  // 複合書式指定を
 Console.WriteLine($"{name}は{age}歳です。");       // 文字列補間を使った連結
 
 Console.WriteLine("===アライメント（位置合わせ）===");
-List<Person> people = new List<Person>()
-{
+List<Person> people =
+[
     new Person("taro", 32, 172.5),
     new Person("aoi", 15, 158.9),
     new Person("kanako", 4, 95.2),
-};
+];
 foreach (var person in people)
 {
     Console.WriteLine($"|{person.Name,-8}|{person.Age,3}歳|{person.Height,6}cm|");

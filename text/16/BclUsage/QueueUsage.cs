@@ -4,7 +4,7 @@ public static class QueueUsage
 {
     public static void Run()
     {
-        var queue = new Queue<int>(new[] { 1, 2, 3 });
+        var queue = new Queue<int>([1, 2, 3]);
 
         // Count
         Console.WriteLine(queue.Count); // output: 3

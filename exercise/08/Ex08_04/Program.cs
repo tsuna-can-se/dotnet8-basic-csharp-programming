@@ -1,4 +1,4 @@
-﻿Dictionary<string, int> scores = new Dictionary<string, int>()
+﻿var scores = new Dictionary<string, int>()
 {
     { "社会", 90 },
     { "国語", 80 },
