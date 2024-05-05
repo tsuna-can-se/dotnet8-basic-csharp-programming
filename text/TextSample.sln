@@ -193,9 +193,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncMain", "17\AsyncMain\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncMainWithTopLevelStatement", "17\AsyncMainWithTopLevelStatement\AsyncMainWithTopLevelStatement.csproj", "{D32CE6DF-FD50-4161-9419-91E5E811EA27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchExpression", "08\SwitchExpression\SwitchExpression.csproj", "{923ED07E-2BD7-43BD-949D-44C1B6F1E332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpression", "08\SwitchExpression\SwitchExpression.csproj", "{923ED07E-2BD7-43BD-949D-44C1B6F1E332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryConstructor", "14\PrimaryConstructor\PrimaryConstructor.csproj", "{DC909BD1-3684-4F16-BB2B-6210B8FAEB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimaryConstructor", "14\PrimaryConstructor\PrimaryConstructor.csproj", "{DC909BD1-3684-4F16-BB2B-6210B8FAEB26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
