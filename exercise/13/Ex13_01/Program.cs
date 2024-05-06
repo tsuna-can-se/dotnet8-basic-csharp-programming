@@ -9,7 +9,7 @@
     }
     catch (ArgumentOutOfRangeException ex)
     {
-        Console.WriteLine("入力可能な値は1～9の整数だけです。");
+        Console.WriteLine("入力可能な値は1～10の整数だけです。");
         Console.WriteLine(ex.ToString());
         Console.WriteLine("===========");
     }
