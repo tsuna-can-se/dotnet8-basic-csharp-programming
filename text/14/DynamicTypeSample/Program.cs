@@ -1,4 +1,4 @@
-﻿dynamic? point = GetPoint();
+﻿dynamic point = GetPoint();
 Console.WriteLine(point.ToString()); // output: Point { X = 10, Y = 20 }
 
 dynamic point2 = new Point(1, 2);
