@@ -197,6 +197,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpression", "08\Swit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimaryConstructor", "14\PrimaryConstructor\PrimaryConstructor.csproj", "{DC909BD1-3684-4F16-BB2B-6210B8FAEB26}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertySample", "09\PropertySample\PropertySample.csproj", "{6A968157-EC6C-4DCC-B3B4-FB6A2F232666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -515,6 +517,10 @@ Global
 		{DC909BD1-3684-4F16-BB2B-6210B8FAEB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC909BD1-3684-4F16-BB2B-6210B8FAEB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC909BD1-3684-4F16-BB2B-6210B8FAEB26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A968157-EC6C-4DCC-B3B4-FB6A2F232666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A968157-EC6C-4DCC-B3B4-FB6A2F232666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A968157-EC6C-4DCC-B3B4-FB6A2F232666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A968157-EC6C-4DCC-B3B4-FB6A2F232666}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -598,6 +604,7 @@ Global
 		{D32CE6DF-FD50-4161-9419-91E5E811EA27} = {E0960B4C-26F1-44E4-8C3A-D1C34C1B30DF}
 		{923ED07E-2BD7-43BD-949D-44C1B6F1E332} = {FE0E3415-37DE-479B-AA5E-D23622E15AA3}
 		{DC909BD1-3684-4F16-BB2B-6210B8FAEB26} = {E8399E4A-B0E9-4D36-A99E-2F3CB09C056A}
+		{6A968157-EC6C-4DCC-B3B4-FB6A2F232666} = {B14B1CD3-B709-4B3D-955B-22BFFCA87DA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BD9C9E1-0986-449E-BBE6-C61D43F66AD6}
